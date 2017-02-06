@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2462e9e1-85b0-48c8-b951-be63804d94b7"
+  name="View" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9b48f57e-8146-43d4-bbd8-0fe6d06e678b"
+        name="EVentPage.xaml"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="b30c7d5b-beeb-45ea-a3a5-12d310097fa4"
+            name="DataContext">
+            <classMoniker
+              Id="a28f6ab9-5265-4c17-8f44-dea320e13cd1"
+              LastKnownName="EventViewModel"
+              LastKnownLocation="Package1_1203.uml" />
+          </dependency>
+          <dependency
+            Id="887d1493-4230-4cf9-8832-5b47da70300f"
+            name="Command">
+            <packageMoniker
+              Id="3e5d86db-2d4e-44a7-b808-6280051645b0"
+              LastKnownName="Common"
+              LastKnownLocation="Package_1205.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4c042935-8d28-4ca7-92ab-4931b5a1d664"
+        name="CreateEventPage.xaml"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="5dd8bb5e-44f3-4e63-8448-23435a027fdf"
+            name="DataContext">
+            <classMoniker
+              Id="a28f6ab9-5265-4c17-8f44-dea320e13cd1"
+              LastKnownName="EventViewModel"
+              LastKnownLocation="Package1_1203.uml" />
+          </dependency>
+          <dependency
+            Id="dbccfde7-7e77-4d45-8581-79fe366183f5"
+            name="Command">
+            <packageMoniker
+              Id="3e5d86db-2d4e-44a7-b808-6280051645b0"
+              LastKnownName="Common"
+              LastKnownLocation="Package_1205.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{e58a15ec-2575-43a3-accd-f2ee9356977c}</ProjectGuid>
+    <ProjectGuid>{58580945-c09e-4f3f-a937-a9c79ca1c62a}</ProjectGuid>
     <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
-    <Name>EventMakerSSD</Name>
-    <RootNamespace>EventMakerSSD</RootNamespace>
+    <Name>EventMakerDCD</Name>
+    <RootNamespace>EventMakerDCD</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -22,15 +22,36 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="ModelDefinition\Package1_1203.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1205.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1206.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1203.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1204.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1205.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1206.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
-    <Content Include="EventMakerSSD.sequencediagram">
+    <Content Include="EventMakerDCD.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="EventMakerSSD.sequencediagram.layout">
+    <Content Include="EventMakerDCD.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>EventMakerSSD.sequencediagram</DependentUpon>
+      <DependentUpon>EventMakerDCD.classdiagram</DependentUpon>
     </Content>
-    <Content Include="ModelDefinition\EventMakerSSD.uml">
+    <Content Include="ModelDefinition\EventMakerDCD.uml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
